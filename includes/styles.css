@@ -1,0 +1,445 @@
+* {
+    font-family: 'Roboto Thin';
+    text-shadow: none !important;
+    font-weight: normal !important;
+}
+b, strong {
+    font-family: 'Roboto Medium';
+    text-shadow: none !important;
+    font-weight: normal !important;
+}
+body {
+    background: #BFBFBF;
+    /*font-size: 12px;*/
+}
+.ui-content {
+    padding: 0px 0px 60px 0px;
+    margin: 0px;
+    overflow: hidden;
+    background: #f8f8f8;
+    width: 100%;
+}
+.ui-header, 
+.ui-footer,
+.footer-menu {
+    background: #FF9600 !important;
+    color: #FFFFFF !important;
+    font-weight: normal !important;
+    width: 100%;
+}
+/* HEADER *****************************************/
+.ui-header, 
+.ui-title {
+    margin: 0px !important;
+    font-size: 2.5em;
+    padding: .3em 0px .1em !important;
+    width: 100%;
+    text-shadow: 1px 1px 1px #CF8600!important;
+} 
+
+/* FOOTER *****************************************/
+.footer-menu div{
+    display: none;
+    /*min-height: 320px;*/
+}
+.footer-menu div.active{
+    display: block;
+}
+.loadmenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    bottom: -1px;
+    padding-bottom: 1px;
+    border-top: 1px solid #ddd;
+}
+.footer-links {
+    background: #FFFFFF ;
+}
+.footer-links a {
+    background: url("../images/black-icons/workout.png") no-repeat scroll 50% 50% / 26px 26px #FEFEFE;
+    display: inline-block;
+    height: 24px;
+    overflow: hidden;
+    padding-top: 15px;
+    text-indent: -9999px;
+    width: 23%;
+}
+.footer-links a.statistics {
+    background: url("../images/black-icons/rising.png") no-repeat scroll 50% 50% / 32px 32px #FEFEFE;
+}
+.footer-links a.tips {
+    background: url("../images/black-icons/heart.png") no-repeat scroll 50% 50% / 32px 32px #FEFEFE;
+}
+.footer-links a.configuration {
+    background: url("../images/black-icons/opciones.png") no-repeat scroll 50% 50% / 32px 32px #FEFEFE;
+}
+.footer-links a:hover,
+.footer-links a.active {
+    background-color: #FFFFFF;
+    border-bottom: 4px solid #655;
+    margin-bottom: -2px;
+}
+.footer-menu div a {
+    background: url("../images/icons/workout-for-today.png") no-repeat scroll 50% top / auto 90% #ff9600;
+    color: #ffffff !important;
+    display: inline-block;
+    height: auto;
+    margin: 5px 2%;
+    /*padding: 106px 0 20px;*/
+    /*padding: 24% 0 4%;*/
+    padding: 22% 0 2% 0;
+    text-align: center;
+    text-decoration: none;
+    width: 45%;
+}
+.footer-menu div a.workout-random {
+    background: url("../images/icons/random.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.strech  {
+    background: url("../images/icons/strech2.png") no-repeat scroll 50% 10px / auto 70% #ff9600;
+}
+.footer-menu div a.leave  {
+    background: url("../images/icons/depressed.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.statistics-sesion {
+    background: url("../images/icons/hoy.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.statistics-week {
+    background: url("../images/icons/semanal.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.statistics-month {
+    background: url("../images/icons/mensual.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.statistics-total {
+    background: url("../images/icons/estadistica-total-acumulado.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.tips  {
+    background: url("../images/icons/tips2.png") no-repeat scroll 50% 10px / auto 70% #ff9600;
+}
+.footer-menu div a.motivation-quotes {
+    background: url("../images/icons/motivation-quotes-3.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.set-notification {
+    background: url("../images/icons/clock15.png") no-repeat scroll 50% top / auto 85% #ff9600;
+}
+.footer-menu div a.options  {
+    background: url("../images/icons/controls.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.about  {
+    background: url("../images/icons/about.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+.footer-menu div a.reset-progress {
+    background: url("../images/icons/reset.png") no-repeat scroll 50% top / auto 90% #ff9600;
+}
+/* HOME ***************/
+#home .ui-content p {
+    text-align: center;
+    margin: .8em 0 0 0 !important;
+}
+#home .ui-content p img {
+    width: 42%;
+}
+#home .ui-content p.profile-name {
+    font-family: 'Roboto Medium';
+    /*font-weight: bold !important;*/
+    font-size: 1.3em;
+    margin: 0 !important;
+}
+#home .ui-content p.profile-level {
+    margin: 0 !important;
+}
+/* WORKOUTS ***********************************************************/
+#workout {
+    background: #BFBFBF;
+}
+#workout .ui-content {
+    background: #BFBFBF !important;
+}
+#workout p {
+    text-align: left;
+    padding: 0px 1em;
+}
+#workout .explanation {
+    background: #BFBFBF;
+    padding: 1em 1em 2em 1em;
+    color: #515151;
+    margin-top: 0px;
+    float: left;
+}
+#workout .explanation h2 {
+    font-family: 'Roboto Medium';
+    font-size: 1.4em;
+    padding: 0px 1em;
+}
+#workout .explanation ol {
+}
+#workout .explanation ol li {
+}
+#workout table{
+    width: 100%;
+    border: 0px;
+}
+#workout table tr {
+    vertical-align: middle;
+    border: 0px;
+}
+#workout td {
+    border: 0px;
+}
+#workout td.prev,
+#workout td.next {
+    background: #FFF; 
+    border: 0px;
+}
+#workout a.prev,
+#workout a.next {
+    display:  block;
+    width: 75%;
+    height: 30px;
+    text-indent: -999px;
+    overflow: hidden;
+    border: 0px;
+    margin: 0px auto;
+}
+#workout a.prev {
+    background: url("../images/lt.png") no-repeat center center / 100% auto;
+}
+#workout a.next {
+    background: url("../images/gt.png") no-repeat center center / 100% auto;
+}
+#wvideo {
+    width: 100%;
+    border: 0px;
+    margin-bottom: -4px !important;
+}
+#workout #sets,
+#workout #reps {
+    display: block;
+    float: left;
+    width: 50%;
+    background: #ff9600;
+    color: #FFF;
+    font-size: 2em;
+    margin: 0px;
+    padding: .2em 0;
+    text-align: center;
+}
+/* ESTATICAS ********************************************************/
+.text {
+    margin-top: 2em;
+}
+.text p {
+    color: #FF9600 !important;
+    margin: 1.5em 3em;
+    text-align: justify;
+}
+#tips .ui-header,
+#congratulations .ui-header,
+#motivation-quotes .ui-header,
+#profile .ui-header,
+#reset-progress .ui-header,
+.statistics .ui-header{
+    background: url("../images/header.png") no-repeat scroll center bottom / 100% auto #FF9600!important;
+    padding: .2em 0 !important;
+    border: none;
+}
+
+/* MOTIVATION QUOTES ************************************************/
+#motivation-quotes .ui-title{
+    background: url("../images/icons/motivation-quotes-3.png") no-repeat scroll center bottom / auto 69% transparent;
+    padding-bottom: 20% !important;
+}
+#motivation-quotes .quotes {
+    padding-top: 2.5em;
+    min-height: 14em;
+}
+#motivation-quotes p {
+    color: #FF9600 !important;
+    margin: 1em 3.5em 0 3.5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+#motivation-quotes .quotes p {
+    display: none;
+}
+#motivation-quotes .quotes p.active {
+    display: block !important;
+}
+#motivation-quotes p a.refresh {
+    background: url("../images/black-icons/double11.png") no-repeat scroll 50% 50% / 128px 128px #F8F8F8;
+    display: inline-block;
+    height: 128px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 128px;
+    transform:scale(1) rotate(16.768rad);
+}
+/* STATISTICS *********************************************************/
+.statistics .ui-title{
+    background: url("../images/icons/rising.png") no-repeat scroll center bottom / auto 69% transparent;
+    padding-bottom: 20% !important;
+}
+.statistics h3,
+.statistics p,
+.statistics p span.unit {
+    color: #FF9600 !important;
+}
+.statistics h3 {
+    font-size: 2em;
+    margin-top: 2em;
+    text-align: left;
+    margin: 0.5em 1.5em 0 1.5em;
+}
+.statistics p {
+    font-size: 3.5em;
+    margin: 0 auto;
+    padding-right: 60px;
+    position: relative;
+    text-align: right;
+    width: 185px;
+}
+.statistics p span.unit {
+    color: black;
+    display: block !important;
+    font-size: 0.5em;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+    width: 50px;
+}
+/* TIPS ***************************************************************/
+#tips .ui-title{
+    background: url("../images/icons/tips2.png") no-repeat scroll center bottom / auto 69% transparent;
+    padding-bottom: 20% !important;
+}
+/* Congratulations ****************************************************/
+#congratulations .ui-title{
+    background: url("../images/icons/championship.png") no-repeat scroll center bottom / auto 69% transparent;
+    padding-bottom: 20% !important;
+}
+#congratulations h2,
+#congratulations p {
+    color: #FF9600 !important;
+    text-align: center;
+}
+#congratulations h2 {
+    font-size: 1.8em;
+    margin: 1.5em 1.5em 1em;
+}
+#congratulations p {
+    font-size: 1.4em;
+}
+#popup {
+    display: none !important;
+}
+/* RESET PROGRESS *******************************************************/
+#reset-progress .ui-title{
+    background: url("../images/icons/reset.png") no-repeat scroll center bottom / auto 69% transparent;
+    padding-bottom: 20% !important;
+}
+#reset-progress h2 {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 1.5em 1.5em 1em;
+}
+/* OPTIONS **************************************************************/
+#profile .ui-title{
+    background: url("../images/icons/controls.png") no-repeat scroll center bottom / auto 69% transparent;
+    padding-bottom: 20% !important;
+}
+#profile form{
+    margin: 0px 4em;
+}
+#profile form label {
+    font-family: 'Roboto Medium';
+    font-size: 1.2em;
+}
+/* NOTIFICATION *********************************************************/
+#set-notification ul.notifications {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#set-notification ul.notifications li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#set-notification ul.notifications li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 70%;
+    padding-left: 4%;
+    line-height: 3.2em;
+    font-size: 1.4em;
+    color: #000;
+}
+#set-notification ul.notifications li a.off {
+    opacity: .4;
+}
+#set-notification ul.notifications li a.activate {
+    width: 20%;
+    padding-top: .6em;
+}
+#set-notification ul.notifications li a span {
+    float: right;
+    font-size: 1.4em;
+}
+#set-notification ul.notifications li a img {
+    width: 80%;
+}
+li.row-a {
+    background: #FF6600;
+} 
+li.row-b {
+    background: #FF7600;
+} 
+li.row-c {
+    background: #FF8600;
+} 
+li.row-d {
+    background: #FF9600;
+} 
+li.row-e {
+    background: #FFa600;
+} 
+li.row-f {
+    background: #FFb600;
+} 
+li.row-g {
+    background: #FFc600;
+} 
+li.row-h {
+    background: #FFd600;
+} 
+/* Notification POPUP *********************************************************/
+#notification-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    z-index: 10000;
+}
+.popup-box {
+    position: fixed;
+    width: 70%;
+    height: 50%;
+    top: 15%;
+    left: 10%;
+    background: #FF7600;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 0 5%;
+}
+.popup-box h2 {
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+}
