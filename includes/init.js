@@ -8,7 +8,7 @@ function onDeviceReady() {
     $.mobile.defaultPageTransition   = 'slide';
 
     $("#moovit").on("click", function() {
-        //window.OpenApplication('com.tranzmate');
+        window.OpenApplication('com.tranzmate');
         return false;
     });
     $("#portrait").on("click", function() {
